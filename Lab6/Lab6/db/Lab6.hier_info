@@ -1,0 +1,14 @@
+|Lab6
+clk => S_now~1.DATAIN
+reset => S_now~3.DATAIN
+w => Selector0.IN3
+w => S_next.S2b.DATAB
+w => Selector1.IN3
+w => S_next.S0.DATAB
+w => Selector0.IN1
+w => S_next.S2a.DATAB
+output[0] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[1] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[2] <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+

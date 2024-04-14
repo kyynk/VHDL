@@ -1,0 +1,9 @@
+
+State Machine - |Lab6|S_now
+Name S_now.S4 S_now.S3 S_now.S2b S_now.S2a S_now.S1 S_now.S0 
+S_now.S0 0 0 0 0 0 0 
+S_now.S1 0 0 0 0 1 1 
+S_now.S2a 0 0 0 1 0 1 
+S_now.S2b 0 0 1 0 0 1 
+S_now.S3 0 1 0 0 0 1 
+S_now.S4 1 0 0 0 0 1 
