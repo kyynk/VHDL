@@ -1,0 +1,15 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_arith.all;
+use ieee.std_logic_unsigned.all;
+use work.lab9_package.all;
+--7 9 11 13 15 17 19 21 <- 階層
+--N = 2*i + 7
+
+--11059000  ->110590005
+--30095011  ->110590034
+--30195111	->repeat +1
+-- n -> 0~7 (8,9 -> 7)
+-- 0=7, 1=9, 2=11, 3=13, 4=15, 5=17, 6=19, 7=21
+--11057000
+--30175111

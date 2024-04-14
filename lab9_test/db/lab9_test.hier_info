@@ -1,0 +1,22 @@
+|lab9_test
+clk_50M => ~NO_FANOUT~
+reset => LED[0].DATAIN
+sw[0] => ~NO_FANOUT~
+sw[1] => ~NO_FANOUT~
+sw[2] => ~NO_FANOUT~
+LED[0] << reset.DB_MAX_OUTPUT_PORT_TYPE
+LED[1] << <GND>
+LED[2] << <GND>
+LED[3] << <GND>
+LED[4] << <GND>
+LED[5] << <GND>
+LED[6] << <GND>
+LED[7] << <GND>
+LED[8] << ro:gRO.ck_out
+
+
+|lab9_test|ro:gRO
+enable => chain.IN1
+ck_out <= ck_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
