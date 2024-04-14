@@ -1,0 +1,16 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+use work.lab4_package.all;
+
+entity Lab4_1 is
+	port(	
+	);
+end Lab4_1;
+
+architecture behavioral of Lab4_1 is
+	
+begin
+	
+	
+end behavioral;
