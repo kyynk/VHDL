@@ -1,0 +1,11 @@
+library ieee;
+use ieee.std_logic_1164.all;
+package lab8_package is
+	component seg
+		port(	sw1 : in std_logic_vector(3 downto 0);
+				sw0 : in std_logic_vector(3 downto 0);
+				HEX1: out std_logic_vector(0 to 6);
+				HEX0: out std_logic_vector(0 to 6)
+		);
+	end component seg;
+end lab8_package;

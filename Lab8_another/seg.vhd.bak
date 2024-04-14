@@ -1,0 +1,11 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_signed.all;
+
+entity seg is
+	port(	sw 	: in std_logic_vector(7 downto 0);
+			hex0, hex1 :out std_logic_vector(6 downto 0)
+	);
+end seg;
+
+architecture behavior of seg is
