@@ -1,0 +1,289 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Quotient[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Quotient[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Quotient[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Quotient[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Quotient[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Quotient[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Quotient[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Quotient[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Remainder[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Remainder[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Remainder[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Remainder[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Remainder[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Remainder[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Remainder[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Remainder[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Remainder[8]",
+					"strict" : false
+				},
+				{
+					"name" : "Remainder[9]",
+					"strict" : false
+				},
+				{
+					"name" : "Remainder[10]",
+					"strict" : false
+				},
+				{
+					"name" : "Remainder[11]",
+					"strict" : false
+				},
+				{
+					"name" : "Remainder[12]",
+					"strict" : false
+				},
+				{
+					"name" : "Remainder[13]",
+					"strict" : false
+				},
+				{
+					"name" : "Remainder[14]",
+					"strict" : false
+				},
+				{
+					"name" : "Remainder[15]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX0[6]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX0[5]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX0[4]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX0[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX0[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX0[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX0[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX3[6]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX3[5]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX3[4]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX3[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX3[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX3[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX3[0]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "Dividend[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Dividend[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Dividend[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Dividend[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Dividend[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Dividend[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Dividend[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Dividend[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Divisor[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Divisor[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Divisor[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Divisor[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Divisor[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Divisor[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Divisor[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Divisor[7]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

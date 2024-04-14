@@ -1,0 +1,18 @@
+
+State Machine - |Lab7|S_now
+Name S_now.S4 S_now.S3 S_now.S2b S_now.S2a S_now.S1 S_now.S0 
+S_now.S0 0 0 0 0 0 0 
+S_now.S1 0 0 0 0 1 1 
+S_now.S2a 0 0 0 1 0 1 
+S_now.S2b 0 0 1 0 0 1 
+S_now.S3 0 1 0 0 0 1 
+S_now.S4 1 0 0 0 0 1 
+
+State Machine - |Lab7|S_next
+Name S_next.S4 S_next.S3 S_next.S2b S_next.S2a S_next.S1 S_next.S0 
+S_next.S0 0 0 0 0 0 0 
+S_next.S1 0 0 0 0 1 1 
+S_next.S2a 0 0 0 1 0 1 
+S_next.S2b 0 0 1 0 0 1 
+S_next.S3 0 1 0 0 0 1 
+S_next.S4 1 0 0 0 0 1 
