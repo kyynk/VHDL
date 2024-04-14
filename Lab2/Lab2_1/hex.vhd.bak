@@ -1,0 +1,66 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity hex is
+port(
+	sw4,sw5,sw6,sw7: in std_logic;
+	a1,b1,c1,d1,e1,f1,g1:out std_logic;
+	sw0,sw1,sw2,sw3: in std_logic;
+	a2,b2,c2,d2,e2,f2,g2:out std_logic
+);
+end hex;
+
+architecture func of hex is
+--boolean
+begin
+----1
+--a
+	HEX1(0) <= (SW1(2) and not(SW1(1)) and not(SW1(0))) or (SW1(3) and SW1(2) and not(SW1(1))) or
+				 (not(SW1(3)) and not(SW1(2)) and not(SW1(1)) and SW1(0)) or
+				 (SW1(3) and not(SW1(2)) and SW1(1) and SW1(0));
+--b
+	HEX1(1) <= (SW1(3) and SW1(1) and SW1(0)) or (SW1(2) and SW1(1) and not(SW1(0))) or
+				 (SW1(3) and SW1(2) and not(SW1(0))) or
+				 (not(SW1(3)) and SW1(2) and not(SW1(1)) and SW1(0));
+--c
+	HEX1(2) <= (SW1(3) and SW1(2) and not(SW1(0))) or (SW1(3) and SW1(2) and SW1(1)) or
+				 (not(SW1(3)) and not(SW1(2)) and SW1(1) and not(SW1(0)));
+--d
+	HEX1(3) <= (not(SW1(2)) and not(SW1(1)) and SW1(0)) or (SW1(2) and SW1(1) and SW1(0)) or
+				 (not(SW1(3)) and SW1(2) and not(SW1(1)) and not(SW1(0))) or
+				 (SW1(3) and not(SW1(2)) and SW1(1) and not(SW1(0)));
+--e
+	HEX1(4) <= (not(SW1(3)) and SW1(0)) or (not(SW1(3)) and SW1(2) and not(SW1(1))) or
+				 (not(SW1(2)) and not(SW1(1)) and SW1(0));
+--f
+	HEX1(5) <= (SW1(3) and SW1(2) and not(SW1(1))) or (not(SW1(3)) and not(SW1(2)) and SW1(0)) or
+				 (not(SW1(3)) and not(SW1(2)) and SW1(1)) or (not(SW1(3)) and SW1(1) and SW1(0));
+--g
+	HEX1(6) <= (not(SW1(3)) and not(SW1(2)) and not(SW1(1))) or (not(SW1(3)) and SW1(2) and SW1(1) and SW1(0));
+
+----0	
+--a
+	HEX0(0) <= (SW0(2) and not(SW0(1)) and not(SW0(0))) or (SW0(3) and SW0(2) and not(SW0(1))) or
+				 (not(SW0(3)) and not(SW0(2)) and not(SW0(1)) and SW0(0)) or
+				 (SW0(3) and not(SW0(2)) and SW0(1) and SW0(0));
+--b
+	HEX0(1) <= (SW0(3) and SW0(1) and SW0(0)) or (SW0(2) and SW0(1) and not(SW0(0))) or
+				 (SW0(3) and SW0(2) and not(SW0(0))) or
+				 (not(SW0(3)) and SW0(2) and not(SW0(1)) and SW0(0));
+--c
+	HEX0(2) <= (SW0(3) and SW0(2) and not(SW0(0))) or (SW0(3) and SW0(2) and SW0(1)) or
+				 (not(SW0(3)) and not(SW0(2)) and SW0(1) and not(SW0(0)));
+--d
+	HEX0(3) <= (not(SW0(2)) and not(SW0(1)) and SW0(0)) or (SW0(2) and SW0(1) and SW0(0)) or
+				 (not(SW0(3)) and SW0(2) and not(SW0(1)) and not(SW0(0))) or
+				 (SW0(3) and not(SW0(2)) and SW0(1) and not(SW0(0)));
+--e
+	HEX0(4) <= (not(SW0(3)) and SW0(0)) or (not(SW0(3)) and SW0(2) and not(SW0(1))) or
+				 (not(SW0(2)) and not(SW0(1)) and SW0(0));
+--f
+	HEX0(5) <= (SW0(3) and SW0(2) and not(SW0(1))) or (not(SW0(3)) and not(SW0(2)) and SW0(0)) or
+				 (not(SW0(3)) and not(SW0(2)) and SW0(1)) or (not(SW0(3)) and SW0(1) and SW0(0));
+--g
+	HEX0(6) <= (not(SW0(3)) and not(SW0(2)) and not(SW0(1))) or (not(SW0(3)) and SW0(2) and SW0(1) and SW0(0));
+
+end func;
